@@ -8,7 +8,8 @@ For inquiries, please contact: 1732597142@hrbeu.edu.cn
 ### Main Scripts
 | File | Description |
 |------|-------------|
-| `main.m` | Main simulation script for the proposed ETO-LOS scheme. Initializes USV states, runs the two-stage ACI control loop, implements the unified event-triggered mechanism, maps control outputs to actuator commands, and generates all simulation figures. Simulation duration: 300 s, sampling interval: 0.05 s. |
+| `main_unified_ETM.m` | Main simulation script for the proposed ETO-LOS scheme. Initializes USV states, runs the two-stage ACI control loop, implements the unified event-triggered mechanism, maps control outputs to actuator commands, and generates all simulation figures. Sampling interval: 0.05 s. |
+| `main_channel_ETM.m` | Comparative simulation script using the channel-wise fixed-threshold ETM baseline, where independent triggering conditions are assigned to the surge force and yaw moment channels separately. |
 
 ### USV Dynamic Models
 
